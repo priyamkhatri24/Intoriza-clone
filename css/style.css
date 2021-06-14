@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: "martel", sans-serif;
+    font-size: 42px;
+    color: #203334;
+    margin: 20px 0px;
+    line-height: 55px;
+    font-family: 100;
+}
+.navigation-strip {
+    display: flex;
+    flex-basis: auto;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+
+.navigation-menu {
+    flex-basis: 70%;
+    font-family: "poppins", Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.navigation-menu ul {
+    list-style: none;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.navigation-menu li {
+    padding: 12px 20px 12px 0px;
+    margin: 0 13px;
+}
+.navigation-menu a:hover {
+    color: blueviolet;
+    transition-duration: 0.3s;
+}
+.left-icon, .search-icon {
+    color: white;
+    background-color: blueviolet;
+    width: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.icons {
+    display: flex;
+    height: 80px;
+    background-color: blueviolet;
+    align-items: center;
+    text-align: center;
+}
+.logo {
+    flex-basis: 25%;
+    margin: 60px;
+}
+.color-area {
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    width: 35%;
+    background-color: blueviolet;
+}
+.image-area {
+    width: 80%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.25)), url("1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+    
+}
+.banner {
+    display: flex;
+}
+#Readmore-header {
+    width: 60%;
+    margin-left: 27%;
+    transform: translateY(240px);
+}
+#Readmore-section-2 {
+    margin-top: 40px;
+    color: rgb(61, 10, 109);
+}
+#Readmore-section-2:hover {
+    margin-top: 40px;
+    color: blueviolet;
+
+}
+.about-us {
+    height: 110vh;
+}
+.columns {
+    display: flex;
+    height: 110vh;
+}
+.minor-heading {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    text-align: center;
+}
+#minor-heading-2 {
+    width: 100%;
+    justify-content: center;
+}
+.minor-heading:hover {
+    letter-spacing: 1px;
+}
+.minor-heading h3, #minor-heading-2 h3 {
+    color: blueviolet;
+    font-size: 18px;
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition-duration: 0.9s;
+    text-align: center;
+}
+.horizontal-decor-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+}
+.horizontal-decor-right .l1-right {
+    width: 48px;    
+    margin-bottom: 4px;
+    border-color: blueviolet;
+    margin-top: 2px;
+}
+.horizontal-decor-right .l2-right {
+    width: 30px;
+    border-color: blueviolet;
+    
+}
+.horizontal-decor-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 9px;
+}
+.horizontal-decor-left .l1-left {
+    width: 48px;    
+    margin-bottom: 4px;
+    border-color: blueviolet;
+    margin-top: 2px;
+}
+.horizontal-decor-left .l2-left {
+    width: 30px;
+    border-color: blueviolet;
+    margin-left: 18px;
+}
+
+.col-2 p {
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #576566;
+    line-height: 25px;
+    width: 83%;
+}
+.col-1 {
+    width: 100%;
+  
+}
+.col-2 {
+    width: 80%;
+}
+.grid-images {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 50px;
+}
+
+.grid-images figure {
+    display: flex;
+    width: 25%;
+    overflow: hidden;
+    background-color: #000;
+}
+.grid-images figure img {
+    width: 100%;
+    opacity: 0.7;
+}
+.grid-images figure img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    overflow: hidden;
+    transition-duration: 0.3s;
+}
+
+.what-we-do {
+    background-color: rgb(240, 240, 240);
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+.what-we-do .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+.what-we-do h1 {
+    text-align: center;
+}
+.what-we-do .rectangle a h3 {
+    font-family: "martel", Arial, Helvetica, sans-serif;
+    color: #203334;
+    margin: 25px 0 15px;
+    font-size: 18px;
+}
+.what-we-do .rectangle a:hover h3 {
+    color: blueviolet;
+}
+.what-we-do p {
+    font-size: 14px;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+    margin: 2px 8px;
+    color: #576566;
+}
+.what-we-do .rectangle {
+    width: 360px;
+    height: 326px;
+    margin: 20px 15px;
+    text-align: center;
+    background-color: #fff;
+}
+.what-we-do button {
+    margin: 15px;
+    padding-bottom: 1px;
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+    letter-spacing: 1px;
+    background-color: rgba(0,0,0,0);
+    border-style: hidden;
+    cursor: pointer;
+    border-width:0px 0px 2px 0px;
+    border-style:solid solid solid solid;
+    border-color: blueviolet;
+}
+.what-we-do button:visited, .what-we-do button:active {
+    padding: 8px;
+    color: blueviolet;
+    background-color: rgba(0,0,0,0);
+    border-style: hidden;
+    cursor: pointer;
+}
+.what-we-do-icon {
+    width: 60px;
+    margin: 40px 30px 0px 30px;
+    color: blueviolet;
+}
+.what-we-do .rectangle:hover .what-we-do-icon {
+    animation-name: hvr-pop;
+    animation-duration: 0.3s;
+}
+
+@keyframes hvr-pop {
+    50% {
+        transform: scale(1.15);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.video-back {
+    background-image: url("img/back2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+.company-video h2 {
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: 400;
+    padding: 55px 20px 10px 50px;
+}
+.company-video {
+    width: 30%;
+    margin-left: 8%;
+    margin-top: 0px;
+    background-color: white;
+    transform: translateY(80px);
+    height: 320px;
+}
+.company-video p {
+    font-family: "martel",Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #203334;
+    margin: 10px 10px 40px 50px;
+    line-height: 25px;
+}
+.company-video .play-button {
+    width: 30px;
+    height: 31px;
+    padding: 15px 15px 15px 20px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    color: white;
+    margin: 0px 55px;
+}
+.company-video a h4 {
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: blueviolet;
+}
+.company-video a {
+    display: flex;
+    align-items: center;
+}
+.our-team {
+    background-color: rgb(240, 240, 240);
+    height: 680px;
+}
+.our-team .minor-heading {
+    padding-top: 80px;
+}
+/* .our-team .member-card {
+    margin-left: 250px;
+} */
+.team-member-cards {
+    display: flex;
+    width: 87%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.our-team .member-card {
+    background: blueviolet;
+    position: relative;
+    width: 400px;
+    height: auto;
+    z-index: 1;
+    margin: 0 20px 0 50px;
+}
+.our-team ul {
+    list-style: none;
+}
+.our-team .social-icons {
+    position: absolute;
+    z-index: 10;
+    margin-top: 80px;
+    height: 330px;
+    overflow: hidden; 
+}
+.our-team ul li {
+    margin: 0px;
+    transform: translateY(350px); 
+    padding: 0px;
+    transition-duration: 0.4s;
+}
+.our-team ul a {
+    margin: 0px;
+    padding: 0px;
+}
+.our-team .member-card:hover ul li {
+    transform: translateY(0px);
+}
+.our-team .member-card ul li .social:hover {
+    background-color: blueviolet;
+    color: white;
+}
+.our-team ul li .social {
+    font-size: 20px;
+    margin: 0px;
+    padding: 7px;
+    color: rgb(37, 0, 71);
+    background-color: white;
+    transition-duration: 0.4s;
+    
+}
+.our-team .member-card p {
+    transform: rotate(90deg);
+    font-family: "martel",Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: inline block;
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    z-index: 3;
+    margin-left: 125px;
+    margin-top: 180px;
+}
+.our-team .member-card:hover {
+    background: rgb(37, 0, 71);
+    transition-duration: 0.6s;
+}
+.our-team .member-image {
+    width: 90%;
+    position: relative;
+    z-index: 2;
+    margin-left: -38px;
+    transform: translateY(60px);
+    -webkit-box-shadow: 42px -42px 30px 0px rgba(0, 0, 0, 0.2);
+-moz-box-shadow:    42px -42px 30px 0px rgba(0, 0, 0, 0.2);
+box-shadow:         42px -42px 30px 0px rgba(0, 0, 0, 0.2);
+    
+}
+.blog-section {
+    height: 630px;
+}
+.Posts {
+    width: 85%;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+.blog-post {
+    text-align: center;
+    width: 340px;
+    margin: 0 20px 20px 20px;
+}
+.thumbnail-box {
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    
+}
+.post-thumbnail {
+    width: 100%;
+    margin: auto;
+    transition-duration: 0.4s;
+    transform: scale(1.15);
+}
+.post-thumbnail:hover {
+    transform: scale(1.15) translateX(20px);
+    opacity: 0.8;
+}
+.blog-post .post-date {
+    transform: rotate(-90deg) translateY(-190px);
+    width: 30%;
+    position: relative;
+    top: 55px;
+    left: 140px;
+    display: flex;
+    align-items: center;
+}
+.blog-post .post-date p {
+    color: blueviolet;
+    font-weight: bold;
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 10px;
+    
+}
+.blog-post h4 {
+    font-family: "martel",Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #203334;
+    text-align: left;
+    margin: 5px 28px;
+    padding-left: 10px;
+}
+.blog-post a h4{
+    transition-duration: 0.4s;
+}
+.blog-post a h4:hover {
+    color: blueviolet;
+}
+.blog-post .post-description {
+    text-align: left;
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #576566;
+    margin: 0 25px 10px 25px;
+    padding-left: 10px;
+}
+.blog-post .big-line {
+    border: 10% solid blueviolet;
+    margin-top: 33px;
+}
+.blog-post .admin-comments {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 10px 0px;
+}
+.blog-post .admin-comments p {
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: blueviolet;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.blog-post .admin-comments .admin-comments-icons {
+    padding: 0 5px;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #eeeeee;
+}
+.footer .top-row {
+    text-align: center;
+    position: relative;
+    top: 65px;
+    margin-bottom: 130px;
+}
+.footer .top-row ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.footer .top-row ul a:hover li {
+    color: blueviolet;
+    border-bottom: 1px solid blueviolet;
+}
+.footer .top-row ul a li {
+    margin: 10px 15px;
+    color: #1f3334;
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    transition-duration: 0.3s;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+.footer .middle-row {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+.footer .middle-row div {
+    text-align: center;
+}
+.footer .middle-row div h2 {
+    color: #203334;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: "martel",Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.footer .middle-row div p {
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #576566;
+    transition-duration: 0.3s;
+    font-weight: 400;
+}
+.footer .studio a:hover p{
+    color: blueviolet;
+}
+.footer .footer-icons ul {
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer .footer-icons ul {
+    list-style: none;
+}
+.footer .footer-icons ul .social {
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 7px;
+    background-color: #fff;
+    color: blueviolet;
+    transition-duration: 0.4s;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+.footer .footer-icons ul .social:hover {
+    border: solid 2px blueviolet;
+    color: rgb(47, 7, 85);
+}
+.footer .copyright {
+    text-align: center;
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #e6e6e6;
+    width: 100%;
+    margin: auto;
+    padding: 8px ;
+}
+.footer .copyright p {
+    padding: 18px;
+    text-transform: uppercase;
+}.footer .copyright p span{
+    text-transform: uppercase;
+    color: blueviolet;
+}
+
